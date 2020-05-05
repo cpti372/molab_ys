@@ -1,0 +1,88 @@
+.liv:after{ clear: all; display: block; content: '' }
+.about::after{ clear: both; display: block; content: '' }
+.bi::after{ clear: both; display: block; content: '' }
+.part::after{ clear: both; display: block; content: '' }
+
+body{
+    margin: 0;
+    height: 100%;
+    overflow: visible;
+    overflow-y: scroll;
+}
+.header_top_2 ul{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+.header_top_2 ul li{
+    display: inline;
+    padding: 20px 20px 20px 20px;
+    margin: 5px 100px 5px 100px;
+  
+}
+
+.intro_main .liv{
+      float: left;
+      padding-left: 130px;
+      padding-right: 130px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+}
+
+.intro_main .about >h2{
+      float: right;
+      padding-right: 130px;
+}
+
+.intro_main .about > p{
+    float: right;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-bottom: 30px;
+}
+
+.intro_main .bi{
+    float: left;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-bottom: 30px;
+
+}
+
+.part{
+    margin-bottom: 150px;
+
+}
+.intro_main .part{
+    float: right;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-bottom: 30px;
+}
+
+
+
+input[type="button"]{
+    width:100px;
+    background-color:#041020;
+    border: none;
+    color:#fff;
+    padding: 15px 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px;
+    cursor: pointer;
+}
+
+
+footer{
+    bottom:0;
+    width:100%;
+    height: 130px;
+    margin-top: 100px;
+    background-color: #707070;
+    position: fixed;
+}
