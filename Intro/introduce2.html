@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+     <meta http-equiv="X-UA-Compatible" content="IE=edge" , chrom="1" />
+        <!-- <meta name="viewport" content="width=device-width" /> -->
+        <title>Molab | 모두의 리빙랩</title>
+        <link rel="stylesheet" href="src/css/common.css" />
+        <link rel="stylesheet" href="src/css/main.css" />
+        <link rel="stylesheet" href="src/css/introduce.css">
+        <link rel="stylesheet" href="src/css/introduce2.css">
+        <script type="text/javascript" src="src/js/main.js"></script>
+        <script>
+            function complete(){
+                alert('등록이 완료되었습니다.');
+                window.location.href='introduce.html';
+            
+            }
+        </script>
+    <title>Document</title>
+</head>
+<body>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" , chrom="1" />
+        <!-- <meta name="viewport" content="width=device-width" /> -->
+        <title>Molab | 모두의 리빙랩</title>
+        <link rel="stylesheet" href="src/css/common.css" />
+        <link rel="stylesheet" href="src/css/main.css" />
+        <link rel="stylesheet" href="src/css/introduce.css">
+        <script type="text/javascript" src="src/js/main.js"></script>
+      </head>
+      <body>
+        <!-- 상단바-->  
+        <header>
+          <div class="header_top wide_max_width_area">
+            <h1 class="logo_area">
+              <a href="./main.html"><img src="resources/img/logo.png" alt="MOLAB" /></a>
+            </h1>
+            <div class="search_area">
+              <input type="text" placeholder="Search.." name="Search" />
+              <!-- <button
+                type="submit"
+              >
+                검색
+              </button> -->
+            </div>
+            <nav>
+              <ul>
+                <li class="menu_item">
+                  <a href="#"><div class="menu_header">소개</div></a>
+                </li>
+    
+                <li class="menu_item">
+                  <a><div class="menu_header activity">활동</div></a>
+                    <ul class="sub_menu_list activity">
+                      <li>
+                        <a>리빙랩 모아보기</a>
+                      </li>
+                      <li>
+                        <a>후기</a>
+                      </li>
+                      <li>
+                        <a href="./src/html/request.html">리퀘스트</a>
+                      </li>
+                    </ul>
+                </li>
+    
+                <li class="menu_item">
+                  <a href="#"><div class="menu_header">네트워크</div></a>
+                </li>
+                <li class="menu_item">
+                  <a href="#"><div class="menu_header">카테고리</div></a>
+                  <section class="sub_menu_list category">
+                    <p>지역</p>
+                    <ul class="category_region">
+                      <li>
+                        <a>서울</a>
+                      </li>
+                      <li>
+                        <a>인천/경기</a>
+                      </li>
+                      <li>
+                        <a>대전/충청/세종</a>
+                      </li>
+                      <li>
+                        <a>부산/울산/경남</a>
+                      </li>
+                      <li>
+                        <a>광주/전라</a>
+                      </li>
+                      <li>
+                        <a>대구/경북</a>
+                      </li>
+                      <li>
+                        <a>강원</a>
+                      </li>
+                      <li>
+                        <a>제주</a>
+                      </li>
+                      <li>
+                        <a>기타지역</a>
+                      </li>
+                 
+                    </ul></li>
+                  </section>
+              </ul> 
+              <button>로그인</button>
+            </nav>
+        </header>
+         <!-- 상단바1-->  
+         <!-- 상단바2-->  
+        <div class="header_top_2" style="background-color:#041020; width: 100%; height: 40px; padding-top: 30px;">
+            <ul style="list-style: none; color: white;">
+                <li>What's living lab</li>
+                <li>About us</li>
+                <li>CI/BI</li>
+                <li>MOLAB과 함께 하기</li>
+            </ul>
+        </div>
+    <!--폼창-->
+    <fieldset>
+    <form action="form">
+        <h2 style="text-align: center;">프로젝트 등록하기</h2>
+        <hr>
+        <h3>프로젝트 정보</h3>
+        제목 <br/>
+        <textarea name="ta1" id="" cols="30" rows="10" wrap="physical"></textarea>
+        <br/><br/>
+        한줄소개<br/>
+        <textarea name="ta2" id="" cols="30" rows="10" wrap="physical"></textarea>
+        <br/><br/>
+        상세 소개<br/>
+        <textarea name="ta3" id="" cols="50" rows="10" wrap="physical"></textarea>
+        <br/><br/>
+        <h3>개설자 정보</h3>
+        이름<br/>
+        <textarea name="ta1" id="" cols="30" rows="10" wrap="physical"></textarea>
+        <br/><br/>
+        파일첨부<br/>
+        <input type="file" id="input-file">
+        <br/><br/>
+        <div class="button"><input type="submit" value="등록하기" onclick="complete();"></div>
+    </form>
+    </fieldset>
+</body>
+</html>
