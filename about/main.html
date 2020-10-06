@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" , chrom="1" />
+    <meta name="viewport" content="width=device-width">
+    <title>Molab | 모두의 리빙랩</title>
+    <link rel="stylesheet" href="src/css/common.css" />
+    <link rel="stylesheet" type="text/css" href="public/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="public/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="src/css/main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="container">
+    <header>
+      <div class="header_top wide_max_width_area">
+        <h1 class="logo_area">
+          <a href="./main.html"><img src="resources/img/logo.png" alt="MOLAB" /></a>
+        </h1>
+        <div class="search_area">
+          <form>
+            <input type="text" placeholder="Search.." name="Search" class="search_text"/>
+            <input type="submit" class="search_btn" value="검색" title="검색"/>
+        </form>
+        </div>
+        <nav class="header_nav">
+          <ul>
+            <li class="menu_item">
+              <a href="./src/html/introduce.html"><div class="menu_header">소개</div></a>
+            </li>
+
+            <li class="menu_item">
+              <a><div class="menu_header activity">활동</div></a>
+                <ul class="sub_menu_list activity">
+                  <a href="./src/html/showEvent.html"><li>
+                    리빙랩 모아보기
+                  </li></a>
+                  <a href="./src/html/review.html"><li>
+                   후기
+                  </li></a>
+                  <a href="./src/html/request.html"><li>
+                    리퀘스트
+                  </li></a>
+                </ul>
+            </li>
+
+            <li class="menu_item">
+              <a href="./src/html/network.html"><div class="menu_header">네트워크</div></a>
+            </li>
+            <li class="menu_item">
+              <a href="#"><div class="menu_header">카테고리</div></a>
+              <section class="sub_menu_list category">
+                <p>지역</p>
+                <ul class="category_region">
+                  <li>
+                    <a>서울</a>
+                  </li>
+                  <li>
+                    <a>인천/경기</a>
+                  </li>
+                  <li>
+                    <a>대전/충청/세종</a>
+                  </li>
+                  <li>
+                    <a>부산/울산/경남</a>
+                  </li>
+                  <li>
+                    <a>광주/전라</a>
+                  </li>
+                  <li>
+                    <a>대구/경북</a>
+                  </li>
+                  <li>
+                    <a>강원</a>
+                  </li>
+                  <li>
+                    <a>제주</a>
+                  </li>
+                  <li>
+                    <a>기타지역</a>
+                  </li>
+                </ul>
+               
+              </li>
+              <li class="login">
+                <a href="./src/html/login.html">로그인</a>
+              </li>
+              </section>
+          </ul> 
+        </nav>
+    </header>
+
+    <main>
+    <!-- image slider area-->
+    <div class="img_slide_area">
+      <span id="slide_left_arrow" class="slide_arrow"></span>
+      <img
+        class="img_slide_fade"
+        src="./resources/img/slideimg1.png"
+        alt="스마트백제 시민 아이디어 공모전"
+      />
+      <img
+        class="img_slide_fade"
+        src="./resources/img/slideimg2.png"
+        alt="코리아 렌탈쇼"
+      />
+      <img
+        class="img_slide_fade"
+        src="./resources/img/slideimg3.png"
+        alt="여성 창업 교육 참가자 모집"
+      />
+      <span id="slide_right_arrow" class="slide_arrow"></span>
+    </div>
+
+    <!-- group area-->
+    <div class="wrapper">
+      <!-- today area-->
+      <div class="group">
+        <div class="group_header_area">
+          <span class="group_header">Today's</span>
+        </div>
+        <div class="group_today_area">
+          <div class="calender_area">
+            <h3 class="calender_header"></h3>
+            <table class="calender">
+              <colgroup>
+                <col class="sun">
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+                <col class="sat">
+              </colgroup>
+              <thead>
+                <tr>
+                  <th scope="col">
+                    일
+                  </th>
+                  <th>
+                    월
+                  </th>
+                  <th>
+                    화
+                  </th>
+                  <th>
+                    수
+                  </th>
+                  <th>
+                    목
+                  </th>
+                  <th>
+                    금
+                  </th>
+                  <th scope="col">
+                    토
+                  </th>
+                </tr>
+              </thead>
+              <tbody class="calender_tbody">
+              </tbody>
+            </table>
+        </div>
+
+          <div class="plan">
+            <nav>
+              <div class="nav_tabs">
+                <div class="nav_tab active" id="todayTab">
+                오늘의 event
+                </div>
+                <div class="nav_tab" id="tomorTab">
+                내일의 event
+                </div>
+              </div>
+            </nav>
+            <div class="tab_contents">
+              <div class="tab_event active"  id="todayEvent">
+                <h4>(Today) 스마트시티 시흥 리빙랩 그룹 모집</h4>
+                <img src="resources/img/event.PNG" alt="event"/>
+                <p>
+                  시흥시 리빙랩에서 함께 할 그룹을 모집합니다!
+                </p>
+                <div class="tab_tags">
+                  <span>#시흥시</span>
+                  <span>#스마트시티</span>
+                  <span>#그룹모집</span>
+                  <span>#시흥리빙랩</span>
+                </div>
+              </div>
+              <div class="tab_event"  id="tomorEvent">
+                <h4>(Tomorrow) 스마트시티 시흥 리빙랩 그룹 모집</h4>
+                <img src="resources/img/event.PNG" alt="event"/>
+                <p>
+                  시흥시 리빙랩에서 함께 할 그룹을 모집합니다!
+                </p>
+                <div class="tab_tags">
+                  <span>#시흥시</span>
+                  <span>#스마트시티</span>
+                  <span>#그룹모집</span>
+                  <span>#시흥리빙랩</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- notice area-->
+      <div class="group">
+        <div class="group_header_area">
+          <span class="group_header">Notice</span>
+        </div>
+        <div id="group_notice_area">
+          <div class="group_notice_images">
+            <img src="resources/img/notice1.png" />
+            <img src="resources/img/notice1.png" />
+            <img src="resources/img/notice1.png" />
+          </div>
+        </div>
+      </div>
+      <!-- review area-->
+      <div class="group">
+        <div class="group_header_area">
+          <span class="group_header">Review</span>
+        </div>
+        <div class= "group_review_area">
+          
+        
+        <div class="multiple-items">   
+          <div class="review_contents"><h3>OO 리빙랩 프로젝트 참여 후기</h3><p>사회문제를 해결하는 새로운 시도, 성미산 마을과 희망토농장
+
+            성미산 마을이 처음 형성된 계기는 공동육아였다는 이야기는 이제 많이들 알 것 같습니다. 공병각 마포마을공동체네트워크 대표는 지난 1994년 마을 사람들이 함께 아이들을 키우기 위해 힘을 모아서 공동육아 어린이집을 국내 최초로 만들었고, 2001년 성미산을 깎아 정화시설을 만들겠다는 서울시의 계획에 맞선 학부모의 사례를 취재한 기자가 성미산 마을이라고 작명했다는 이야기를 들려줬습니다.…</p></div>
+          <div class="review_contents"><h3>사회문제를 스스로 해결해보는 실험, 소셜리빙랩</h3><p>
+
+            성미산 마을과 희망토농장의 사례를 통해 소셜리빙랩의 개념을 이해하는 시간도 가졌습니다. 윤찬영 새로운사회를여는연구원 현장연구센터장은 “리빙랩 사례발표나 강의를 하다 보면, 지역활동가들이 ‘저거 우리가 해봤던 건데.’라는 말씀을 많이들 한다”며 소셜리빙랩이 ‘새로운 무언가’라기보다 이미 우리 지역 곳곳에서 변화를 일구는 작은 활동들이 소셜리빙랩과 연결돼 있다고 강조했습니다.…</p></div>
+          <div class="review_contents">설명3</div>
+          <div class="review_contents">설명4</div>
+        </div>
+      </div>
+      </div>
+      <!-- network area-->
+      <div class="group">
+        <div class="group_header_area">
+          <span class="group_header">Network</span>
+          <div id="group_network_area">
+            <img class="network" src="resources/img/support1.png" />
+            <img class="network" src="resources/img/support1.png" />
+            <img class="network" src="resources/img/support1.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+    <footer>
+      creater / partner / developer
+    </footer>
+    
+    <script type="text/javascript" src="src/js/main.js"></script>
+    <script type="text/javascript" src="src/js/calender.js"></script>
+    <script type="text/javascript" src="public/slick/slick.min.js"></script>
+  </div>
+  </body>
+
+</html>
